@@ -1,4 +1,4 @@
-# SeedsPlease-patch-for-Vanilla-Factions-Expanded---Medieval
+# Rimworld-SeedsPlease-patch-for-Vanilla-Factions-Expanded---Medieval
 
 _Only files necessary for patch were included._
 ######
