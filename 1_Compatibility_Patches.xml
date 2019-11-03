@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Integration with VGP -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>SeedsPlease</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <!-- Remove VGP Grade Seed -->
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/SeedsPlease.SeedDef[defName="Seed_Grape"]</xpath>
+                </li>
+                <!-- Remove VGP Grade Seed -->
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/RecipeDef[defName="ExtractSeed_Grape"]</xpath>
+                </li>
+
+            </operations>          
+        </match>
+    </Operation>
+
+</Patch>

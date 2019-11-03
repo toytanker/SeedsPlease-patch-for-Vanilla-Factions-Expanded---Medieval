@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  
+  <!-- Vanilla Factions Expanded - Medieval -->
+
+  <Operation Class="PatchOperationLoadOnDemand.XML">
+    <mods>
+      <li>Vanilla Factions Expanded - Medieval</li>
+    </mods>
+    <folders>
+      <li>VanillaFactionsExpanded_Medieval</li>
+    </folders>
+  </Operation>
+
+</Patch>
